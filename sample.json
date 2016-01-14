@@ -1,0 +1,11 @@
+{
+	"id": "my-one-and-only-instance",
+	"instance_type": "t2.micro",
+	"image_id": "ami-e4d18e93",
+	"subnet_id": "subnet-cad8a2bd",
+	"security_groups": ["sg-ec1dd288"],
+	"tags": [{
+		"key": "environment",
+		"value": "development"
+	}]
+}
